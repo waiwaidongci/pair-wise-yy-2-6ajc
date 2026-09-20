@@ -1,4 +1,8 @@
 {
+  "counters": {
+    "event": 1,
+    "entry": 0
+  },
   "pigeons": [
     {
       "ringNo": "CHN-2026-001",
@@ -28,7 +32,23 @@
           "returnTime": "10:42",
           "rank": 18
         }
-      ]
+      ],
+      "medications": [
+        {
+          "date": "2026-09-10",
+          "name": "呼吸道合剂",
+          "withdrawalDays": 30,
+          "recordedBy": "兽医小李",
+          "lift": null
+        }
+      ],
+      "pedigree": {
+        "status": "confirmed",
+        "confirmedBy": "登记员王姐",
+        "confirmedAt": "2026-04-20",
+        "version": 1
+      },
+      "version": 1
     },
     {
       "ringNo": "CHN-2022-188",
@@ -39,7 +59,15 @@
       "loft": "种鸽棚",
       "vaccines": [],
       "transfers": [],
-      "races": []
+      "races": [],
+      "medications": [],
+      "pedigree": {
+        "status": "unconfirmed",
+        "confirmedBy": null,
+        "confirmedAt": null,
+        "version": 0
+      },
+      "version": 1
     },
     {
       "ringNo": "CHN-2023-512",
@@ -50,7 +78,26 @@
       "loft": "种鸽棚",
       "vaccines": [],
       "transfers": [],
-      "races": []
+      "races": [],
+      "medications": [],
+      "pedigree": {
+        "status": "unconfirmed",
+        "confirmedBy": null,
+        "confirmedAt": null,
+        "version": 0
+      },
+      "version": 1
     }
-  ]
+  ],
+  "events": [
+    {
+      "id": "EVT-1",
+      "name": "300公里资格赛",
+      "date": "2026-10-05",
+      "capacity": 2,
+      "version": 1,
+      "createdAt": "2026-09-20"
+    }
+  ],
+  "entries": []
 }
