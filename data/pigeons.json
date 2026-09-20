@@ -7,6 +7,8 @@
       "motherRing": "CHN-2023-512",
       "color": "灰",
       "loft": "北岸A棚",
+      "bloodlineConfirmed": true,
+      "bloodlineConfirmedBy": "裁判甲",
       "vaccines": [
         {
           "date": "2026-04-01",
@@ -28,7 +30,8 @@
           "returnTime": "10:42",
           "rank": 18
         }
-      ]
+      ],
+      "medications": []
     },
     {
       "ringNo": "CHN-2022-188",
@@ -37,9 +40,11 @@
       "motherRing": "",
       "color": "雨点",
       "loft": "种鸽棚",
+      "bloodlineConfirmed": false,
       "vaccines": [],
       "transfers": [],
-      "races": []
+      "races": [],
+      "medications": []
     },
     {
       "ringNo": "CHN-2023-512",
@@ -48,9 +53,27 @@
       "motherRing": "",
       "color": "红轮",
       "loft": "种鸽棚",
+      "bloodlineConfirmed": false,
       "vaccines": [],
       "transfers": [],
-      "races": []
+      "races": [],
+      "medications": []
     }
-  ]
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "name": "秋季300公里联赛",
+      "date": "2026-10-18",
+      "distance": 300,
+      "quota": 2,
+      "finalized": false
+    }
+  ],
+  "registrations": [],
+  "seq": {
+    "event": 2,
+    "registration": 1,
+    "medication": 1
+  }
 }
